@@ -5,28 +5,34 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	font-family: 'Roboto', sans-serif;
 }
 .header{
 	width: 100%;
-	height: 150px;
+	height: 75px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	position: fixed;
+	background-color: white;
+	z-index: 9999999;
+	border-bottom: #caccd5 1px solid;
 }
 .logo-mum{
 	width: 180px;
 	height: 75px;
 	margin-left: 5%;
-	margin-top: -30px
 }
 .logo{
-	width: 100%;
+	width: 95%;
 }
 .nav{
 	width: 40%;
 	display: flex;
 	justify-content: space-around;
-	font-size: 20px;
+	align-items: center;
+	font-size: 18px;
 	margin-right: 3%;
 }
 .li{
@@ -67,7 +73,9 @@ body{
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
-	height: 30px
+	height: 30px;
+	margin-top:76px;
+	font-family: 'Roboto', sans-serif;
 }
 .dropdown{
 	width: 25%;
@@ -75,27 +83,32 @@ body{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	font-family: 'Roboto', sans-serif;
 
 }
 .product{
 	width: 100%;
 	height: 100%;
-	background-color: #8c94b0;
+	background-color: #caccd5;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 25px;
 	border:none;
 	cursor: pointer;
-
-	}
+	color: #291C4F;
+}
+.product:hover{
+	background-color: #291C4F;
+	color: white
+}
 .product:after{
 	display: inline-block;
 	margin-top: -15px;
     margin-left: .255em;
     vertical-align: .255em;
     content: "";
-    border-top: .3em solid;
+    border-top: .5em solid;
     border-right: .3em solid transparent;
     border-bottom: 0;
     border-left: .3em solid transparent;
@@ -103,13 +116,18 @@ body{
 .services{
 	width: 25%;
 	height: 30px;
-	background-color: #8c94b0;
+	background-color: #caccd5;
 	margin-right: 7%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 25px;
 	cursor: pointer;
+	color: #291C4F;
+}
+.services:hover{
+	font-color: white;
+	backgrond-color: #291C4F;
 }
 .dropdown {
   position: relative;
@@ -121,17 +139,21 @@ body{
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 	display: none;
-	position: absolute;
 	width: 320px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	background-color: #8C95B0 !important;
 	margin-left: 24%;
-	margin-top: 10px;
+	margin-top: 1px;
 	color:black;
 	opacity: 0.5;
 }
 .product-title{
-	margin-top: -5px
+	padding-bottom: 5px;
+	margin-top: -3px;
+	transition: transform;
+}
+.product-title:hover{
+	color: white
 }
 .products{
 	border:none;
@@ -143,7 +165,8 @@ body{
 	display: flex;
 	justify-content: flex-end;
 	margin-right: -20px;
-	padding-right: 50px
+	padding-right: 50px;
+	paddig-top: 20px;
 }
 .products:hover{
 	opacity: 1;
@@ -208,7 +231,7 @@ body{
 }
 .slider-img-div{
 	height: 550px;
-	margin-top: 10px;
+	margin-top: 1px;
 }
 .slider-img{
 	height: 100%;
@@ -229,12 +252,14 @@ body{
 .slide-first-half{
 	display: flex;
 	justify-content: space-around;
-	margin-top: 50px
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
 }
 .slide-second-half{
 	display: flex;
 	justify-content: space-around;
-	margin-top: 50px
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
 }
 .product-slider-img{
 	width: 60%;
@@ -404,6 +429,7 @@ body{
 	background-color: #8C95B0;
 	display: flex;
 	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
 }
 .footer-line{
 	width: 2px;
@@ -467,13 +493,13 @@ body{
 .numbers{
 	display: flex;
 	justify-content: space-around;
-	width: 70%;
+	width: 63%;
 	color: #291C4F;
 }
 .mails{
 	display: flex;
 	justify-content: space-around;
-	width: 70%;
+	width: 51%;
 	color: #291C4F;
 }
 .footer-contact-title{
