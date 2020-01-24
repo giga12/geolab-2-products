@@ -23,6 +23,7 @@ body{
 	width: 180px;
 	height: 75px;
 	margin-left: 5%;
+	cursor: pointer;
 }
 .logo{
 	width: 95%;
@@ -71,6 +72,7 @@ body{
 }
 .product-service{
 	width: 100%;
+	max-width: 1400px;
 	display: flex;
 	justify-content: flex-end;
 	height: 30px;
@@ -93,7 +95,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 25px;
+	font-size: 24px;
 	border:none;
 	cursor: pointer;
 	color: #291C4F;
@@ -104,7 +106,7 @@ body{
 }
 .product:after{
 	display: inline-block;
-	margin-top: -15px;
+	margin-top: -5px;
     margin-left: .255em;
     vertical-align: .255em;
     content: "";
@@ -123,11 +125,17 @@ body{
 	align-items: center;
 	font-size: 25px;
 	cursor: pointer;
-	color: #291C4F;
 }
-.services:hover{
-	font-color: white;
-	backgrond-color: #291C4F;
+.li{
+	outline: none !important;
+	text-decoration: none !important;
+}
+#services:hover{
+	color: white;
+	background-color: #291C4F;
+}
+#services{
+	color: #291C4F;
 }
 .dropdown {
   position: relative;
