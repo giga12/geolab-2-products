@@ -1,5 +1,5 @@
 .everithing{
-	max-width: 1200px;
+	max-width: 1280px;
 }
 body{
 	width: 100%;
@@ -8,7 +8,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 .header{
-	width: 1200px;
+	width: 1280px;
 	height: 75px;
 	display: flex;
 	justify-content: space-between;
